@@ -126,7 +126,7 @@ public class metodos {
                 System.out.println("Cantidad : " + m[i][j].getCantidad());
                 System.out.println("precio Unidad : " + m[i][j].getPrecio());
                 System.out.println("Total a pagar: " + m[i][j].getTotalPagar());
-                if (m[i][j].getEstadopedido() == 2) {
+                if (m[i][j].getEstadopedido() == 1) {
                     System.out.println("venta realizada");
                 } else {
                     System.out.println("pedido pendiente");
